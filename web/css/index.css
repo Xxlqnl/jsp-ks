@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+body{
+    background-color: #e0ddd1;
+}
+.top{
+    height: 30px;
+    background:#feaa75;
+    line-height: 30px;
+}
+.top h2{
+    display: block;
+    width: 300px;
+    color:rgb(17, 9, 9);
+    font-size: 20px;
+    padding: 0 20px;
+    float: left;
+}
+.top h5{
+    display: block;
+    width: 100px;
+    color: rgb(37, 31, 31);
+    float: right;
+    font-family: 楷体;
+}
+.left{
+    width: 200px;
+    height: 600px;
+    border: rgba(0,0,0,0);
+    position: absolute;
+
+}
+.left h2{
+    text-align: center;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    border: rgba(0,0,0,0);
+    margin: 10px auto;
+    border-radius: 2px;
+    background: sandybrown;
+}
+.left ul li{
+    width: 190px;
+    height: 50px;
+    border: rgba(0,0,0,0);
+    margin: 20px auto;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(255, 97, 13);
+    border-radius: 10px;
+    color: white;
+}
+.left ul li:hover{
+    background-color: rgb(255, 109, 32);
+}
+.left ul li a{
+    width: 190px;
+    height: 50px;
+    display:block;
+}
+.body{
+    width: 1500px;
+    min-width: 500px;
+    height: 800px;
+    border: rgba(0,0,0,0);
+    margin-left: 318px;
+    margin-right: auto;
+    display: inline-block;
+}
+.right{
+    width: 300px;
+    height: 800px;
+    border: rgba(0,0,0,0);
+    float: right;
+}
+ .body .movie-item .poster img {
+    width: 160px;
+    height: 220px;
+}
+.body .movie-item .name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.body  .movie-item .score{
+    color:#ffb400;
+    text-align: center;
+    line-height: 2.5;
+    font-style: italic;
+
+}
+.body .movie-item{
+    float: left;
+    width: 160px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 70px;
+}
+.body .movie-item:nth-child(6n){
+    margin-right: 0;
+}
+
+.body .movie-item .poster img{
+    width: 160px;
+    height: 220px;
+}

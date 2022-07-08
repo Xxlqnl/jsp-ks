@@ -1,0 +1,57 @@
+body{
+    background: url("../img/pay.jpg") no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+.name{
+    color: red;
+    font-size: 40px;
+    font-family: 隶书;
+    margin: 100px 10px 10px 220px;
+}
+.container{
+    position: relative;
+}
+.container ul{
+    width: 1000px;
+    height: 27px;
+    background-image: linear-gradient(180deg,rgb(184, 192, 67),rgb(220, 226, 134,.5));
+    border-radius: 6px;
+    margin:auto;
+}
+.container ul li{
+    float: left;
+    text-align: center;
+    line-height: 27px;
+    width: 100px;
+    height: 27px;
+    margin: 0 200px 0 190px;
+}
+.container .price{
+    width: 800px;
+    height: 300px;
+    border: 1px solid rgb(176, 126, 180);
+    position: absolute;
+    border-radius: 60px;
+    left:0px;
+    top: 363px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    background: url("../img/支付.jpg");
+}
+.index a{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    position:fixed;
+    left: 80%;
+    right: 0;
+    top: 75%;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    background-image: linear-gradient(45deg,rgba(211, 198, 83, 0.5),rgba(127, 218, 146, 0.5),rgba(64, 190, 199, 0.5));
+}

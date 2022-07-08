@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "576404",
+      "name": "加号",
+      "font_class": "iconfonticon02",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1381921",
+      "name": "笔",
+      "font_class": "xiao47",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4933158",
+      "name": "错",
+      "font_class": "cuo",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "8288874",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e852",
+      "unicode_decimal": 59474
+    },
+    {
+      "icon_id": "14112850",
+      "name": "对",
+      "font_class": "dui",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}

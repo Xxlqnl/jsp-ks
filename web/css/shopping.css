@@ -1,0 +1,121 @@
+
+.clearfix::after{
+   content:"";
+   display: block;
+   clear: both;
+}
+body{
+   background-color: #e0ddd1;
+}
+.head p{
+   color: red;
+   font-size: 40px;
+   font-family: 隶书;
+   float: left;
+   height: 10px;
+   margin: 10px 10px 100px 20px;
+}
+.head h4{
+   margin: 29px 0;
+   color: rgb(224, 122, 53);
+   float: left;
+   font-weight:500;
+   font-family: 方正舒体;
+}
+.head .img{
+   float: right;
+   margin-top: 10px;
+   margin-right: 20px;
+   font-weight: bold;
+}
+.head img{
+   width: 50px;
+   height: 50px;
+   color: rgb(184, 166, 119);
+}
+.body{
+   margin:-15px auto;
+   color: orange;
+   font-size: 20px;
+}
+.body p{
+   margin: 0 220px;
+}
+.body .content {
+   width: 1000px;
+   height: 380px;
+   margin: 10px auto;
+   color: #000;
+   font-size: 15px;
+   border: 1px solid rgb(231, 180, 180);
+   border-left: none;
+   border-right: none;
+}
+.body .content ul li{
+   float: left;
+   width: 100px;
+   height: 50px;
+   margin-top: 8px;
+   margin-left: 50px;
+   margin-right: 100px;
+   text-align: center;
+}
+.body .content .room{
+   width: 1000px;
+   height: 300px;
+   margin-top: 35px;
+   border: 1px solid rgb(231, 180, 180);
+   border-left: none;
+   border-right: none;
+}
+.body .content  ul li{
+   float: left;
+   margin-bottom: 0;
+}
+
+.body .content .room .goods table tr td{
+   border: 1px solid black;
+   border: none;
+   text-align: center;
+   width: 229px;
+   height: 30px;
+   margin: 0 0 50px 150px;
+}
+.body .content .room img{
+   width: 70px;
+   height: 90px;
+}
+.body .content .room input[type="text"]{
+   width: 15px;
+   height: 15px;
+   border-radius: 2px;
+   text-align: center;
+}
+.body .content .room .goods table tr td:first-child{
+   width: 20px;
+   height: 50px;
+   text-align: center;
+   border-radius: 2px;
+}
+.goods td{
+   padding: 0px;
+}
+.goods .center{
+   line-height: 90px;
+}
+.foot ul li{
+   width: 100px;
+   height: 10px;
+   text-align: center;
+   line-height: 10px;
+   margin: 35px 10px;
+   float: left;
+   color: darkgrey;
+}
+.body .content input[type="submit"]{
+   float: right;
+   width: 100px;
+   height: 40px;
+   background-color: rgb(194, 129, 83,.5);
+   border-radius: 6px;
+}

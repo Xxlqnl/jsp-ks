@@ -1,0 +1,47 @@
+body{
+    background: url("../img/cat.jpg") no-repeat;
+    background-size: 100%;
+    
+}
+.container{
+    width: 350px;
+    height: 400px;
+    border: 1px solid rgb(245, 240, 173);
+    margin: 70px auto;
+    border-radius: 2em;
+    background-image: linear-gradient(95deg,rgba(221, 238, 190, 0.5),rgba(211, 235, 211, 0.5));
+    position: relative;
+}
+.container h2{
+    text-align: center;
+    margin: 30px;
+    font-size: 29px;
+    color: #000000;
+    font-family: 楷体;
+}
+input[type="text"], input[type="password"]{
+    border: 1px solid #dcdfe6;
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 50px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #0d0d0e;
+    margin: 16px 48px;
+    background-image: linear-gradient(95deg,rgba(178, 211, 165, 0.61),rgba(226, 189, 119, 0.5));
+}
+input[type="text"]:hover, input[type="password"]:hover{
+    border-color: #c0c4cc;
+}
+.button input[type="submit"]{
+    width: 85px;
+    height: 30px;
+    margin: 16px 117px;
+    border-radius: 3px;
+    background-image: linear-gradient(95deg,rgba(120, 180, 157, 0.3),rgba(226, 189, 119, 0.5));
+}
+.button input[type="submit"]:hover{
+    background-image: linear-gradient(130deg,rgba(219, 143, 93, 0.5),rgba(120, 180, 157, 0.3));
+}
+ 

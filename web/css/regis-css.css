@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*背景*/
+body{
+    background: url("../img/login-background.jpg");
+}
+/*输入框后的透明背景框*/
+.background{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -220px;
+    background: white;
+    opacity: 50%;
+    border-radius: 10px;
+}
+/*输入框*/
+.main{
+    height: 300px;
+    width: 500px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -200px;
+    text-align: center;
+}
+/*输入条*/
+.main input{
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+}
+/*注册按钮*/
+.main .submit{
+    width: 100px;
+    height: 40px;
+    background-color: #58ab5d;
+    border: none;
+    border-radius: 5px;
+    margin-left: 35px;
+    color: white;
+}
+/*下边的版权背景*/
+.footer-b{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    margin-top: -55px;
+    background: white;
+    opacity: 50%;
+}
+/*版权*/
+.footer{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    margin-top: -40px;
+    text-align: center;
+}

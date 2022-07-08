@@ -1,0 +1,103 @@
+@import "main-css.css";
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont.woff2') format('woff2'),
+    url('iconfont.woff') format('woff'),
+    url('iconfont.ttf') format('truetype'),
+    url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tab{
+    text-align: center;
+    /*position: fixed;*/
+    /*left: 50%;*/
+    /*margin-left: -230px;*/
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.tab .sid{
+    width: 80px;
+    height: 40px;
+}
+.tab .day{
+    width: 160px;
+}
+.tab .time{
+    width: 120px;
+}
+.tab .duration{
+    width: 160px;
+}
+.tab .number{
+    width: 120px;
+}
+.tab .select{
+    width: 120px;
+}
+.tab .tab-header{
+    background: #8ed1eb;
+}
+.tab tr{
+    height: 30px;
+}
+.tab tr:hover{
+    background: #b4e0e9;
+}
+.tab a{
+    text-decoration: none;
+    color: black;
+}
+.add{
+    width: 50px;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #517585;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.add a{
+    color: white;
+    display: inline-block;
+}
+
+.top{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.add{
+    width: 50px;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #517585;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.add a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.top .select{
+    display: inline-block;
+    margin-left: 220px;
+}
+.top .select #name,#studentId,#sClass{
+    width: 100px;
+    border: black 2px solid;
+    border-radius:5px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*背景*/
+body{
+    background: #22afa7;
+}
+/*输入框后的透明背景框*/
+.background{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -250px;
+    background: white;
+    opacity: 50%;
+    border-radius: 10px;
+}
+/*输入框*/
+.main{
+    height: 300px;
+    width: 500px;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -230px;
+    text-align: center;
+}
+/*输入条*/
+.main input{
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+}
+/*注册按钮*/
+.main .submit{
+    width: 100px;
+    height: 40px;
+    background-color: #58ab5d;
+    border: none;
+    border-radius: 5px;
+    margin-left: 35px;
+    color: white;
+}

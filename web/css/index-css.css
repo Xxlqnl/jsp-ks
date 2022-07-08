@@ -1,0 +1,84 @@
+@import "main-css.css";
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont.woff2') format('woff2'),
+    url('iconfont.woff') format('woff'),
+    url('iconfont.ttf') format('truetype'),
+    url('iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tab{
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.tab .id{
+    width: 80px;
+    height: 40px;
+}
+.tab .name{
+    width: 160px;
+}
+.tab .price{
+    width: 120px;
+}
+.tab .classly{
+    width: 160px;
+}
+.tab .operating{
+    width: 120px;
+}
+.tab .tab-header{
+    background: #daeb90;
+}
+.tab tr{
+    height: 30px;
+}
+.tab tr:hover{
+    background: #1aaba950;
+}
+.tab a{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.add{
+     width: 50px;
+     height: 30px;
+     border: 1px black solid;
+     border-radius: 5px;
+     font-size: 18px;
+     background: #517585;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     display: inline-block;
+ }
+.add a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.top .select{
+    display: inline-block;
+    margin-left: 110px;
+}
+.top .select #name,#studentId,#sClass{
+    width: 100px;
+    border: black 2px solid;
+    border-radius:5px;
+}
+/*分页*/
+

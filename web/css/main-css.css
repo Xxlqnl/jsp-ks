@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*上边的条*/
+.header{
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(80deg,rgb(212, 230, 137),rgb(230, 235, 210));
+}
+/*上边条左边字*/
+.header h1{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+/*上边条右边字*/
+.header p{
+    font-size:20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+/*左边条*/
+.left{
+    width: 200px;
+    height: 100%;
+    background: #b7d3a1;
+    position: fixed;
+}
+/*左边条的url*/
+.left ul{
+    margin-left: 40px;
+}
+.left li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.left a{
+    color: black;
+    text-decoration: none;
+}
+.left a:hover{
+    color: #2248d1;
+}
+.left .main{
+}
